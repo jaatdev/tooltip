@@ -1,0 +1,66 @@
+body{
+  background: bisque;
+  
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+
+}
+/** Styling App Component */
+.App {
+  text-align: center;
+  margin-top: 3.125rem;
+  background-color:antiquewhite;
+  display: flex;
+  padding: 2rem;
+  width: 40%;
+  
+  
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+
+}
+
+/* button component */
+.button{
+  cursor: pointer;
+  background: darkcyan;
+  font-weight: 800;
+  color: bisque;
+  border-radius: 0.625rem;
+  font-size: 1.125rem;
+  padding: 0.725rem;
+}
+.button:hover{
+  background: bisque;
+  color: darkcyan;
+}
+
+/*h1 */
+h1{
+  color:cadetblue;
+}
+
+
+/* form div */
+.form-div{
+  display: flex;
+  margin: 1.25rem 0;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  padding: 0.313rem;
+}
+
+/* form-label */
+.form-div label{
+  text-align: left;
+  font-weight: 700;
+  color:rgb(153, 94, 21);
+}
